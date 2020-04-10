@@ -1,0 +1,190 @@
+body{
+    box-sizing: inherit;
+}
+
+#root {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrapper{
+    background-size: 15%;
+    background-position: left -1% top -15%,
+    right -7.5% top -1%,
+    left -5% bottom -10%,
+    right -5% bottom -5%;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    overflow: auto;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #062863;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: transparent;
+}
+.formWrapperDiv{
+   width: 91.666667%;
+   max-width: 25rem;
+   border-bottom-right-radius: 1.25rem;
+   border-top-left-radius: 1.25rem;
+   border-top-right-radius: 1.25rem;
+    background-color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+.formHeader{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.h1{
+    color: #083e9e;
+    text-align: center;
+    font-weight: 700;
+    font-family: U8,sans-serif;
+    margin: 0;
+    margin-block-start: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+.headerP{
+    font-size: .875rem;
+    color: #4a5568;
+    text-align: center;
+    font-family: Karla, sans-serif;
+    margin: 0;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.formClass{
+    overflow-y: auto;
+    min-height: min-content;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    flex: 1 1;
+    flex-direction: column;
+    display: flex;
+}
+.fDiv{
+    position: relative;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    display: flex;
+}
+.label{
+    font-size: .75rem;
+    color: #4a5568;
+    margin-bottom: .20rem;
+    line-height: 2;
+    font-weight: 700;
+    font-family: U8, sans-serif;
+    cursor: default;
+}
+.fInput{
+    color: #1a202c;
+    outline: 0;
+    border-radius: .25rem;
+    background-color: #edf2f7;
+    height: 10px;
+    padding: 20px;
+}
+.howSelect {
+    color: #1a202c;
+    outline: 0;
+    border-radius: .25rem;
+    background-color: #edf2f7;
+    height: 10px;
+    padding: 20px;
+}
+
+button, input, select, textarea {
+    line-height: inherit;
+}
+button, input {
+    overflow: visible;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+
+.buttonDiv{
+        flex: 1 1;
+        align-items: flex-end;
+        display: flex;
+}
+.buttonStyles{
+    background-color: rgb(8, 62, 158);
+    width: 100%;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    font-weight: 700;
+    font-family: U8,
+    sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom-right-radius: .75rem;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+
+}
+
+.loginLink{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-align: center;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-family: Karla,
+    sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom-right-radius: .75rem;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    background-color: transparent;
+    text-decoration: inherit;
+    cursor: pointer;
+}
